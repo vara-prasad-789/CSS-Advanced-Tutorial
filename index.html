@@ -15,8 +15,8 @@
 	<p id="rcorners2">Rounded corners!</p>
 	<p>Rounded corners for an element with a background image:</p>
 	<p id="rcorners3">Rounded corners!</p>
-	<strong>Tip: The border-radius property is actually a shorthand property for the border-top-left-radius, border-top-right-radius, border-bottom-right-radius and border-bottom-left-radius properties.</strong>
-	<h5>CSS border-radius - Specify Each Corner</h5>
+	<strong>Tip: The border-radius property is actually a shorthand property for the border-top-left-radius, border-top-right-radius, border-bottom-right-radius and border-bottom-left-radius properties.</strong><hr><br>
+	<h3>CSS border-radius - Specify Each Corner</h3>
 	<p>Four values - border-radius: 15px 50px 30px 5px:</p>
 	<p id="rcorners11"></p>
 
@@ -35,10 +35,10 @@
 	<p id="rcorners21"></p>
 
 	<p>Ellipse border - border-radius: 50%:</p>
-	<p id="rcorners31"></p>
+	<p id="rcorners31"></p><hr><br>
 
 	<h2>CSS Border Images</h2>
-	<p>The CSS border-image property allows you to specify an image to be used instead of the normal border around an element.<br>
+	<p>The CSS border-image property allows you to specify an image to be used instead of the normal border around an element.<br><br>
 
 	The property has three parts:<br>
 
@@ -55,22 +55,29 @@
 	<p id="borderimg21">border-image: url(IMAGES/border.png) 20% round;</p>
 	<p id="borderimg31">border-image: url(IMAGES/border.png) 30% round;</p>
 	<strong>Tip: The border-image property is actually a shorthand property for the border-image-source, border-image-slice, border-image-width, border-image-outset and border-image-repeat properties.</strong>
-	<p>The border-image-slice property specifies how to slice the image specified by border-image-source. The image is always sliced into nine sections: four corners, four edges and the middle.<br>
+	<hr><br>
+	<h3>Border Image Slice Property</h3>
+	
+	<p>The border-image-slice property specifies how to slice the image specified by border-image-source.<br> The image is always sliced into nine sections: four corners, four edges and the middle.<br>
 	The "middle" part is treated as fully transparent, unless the fill keyword is set.</p>
-	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-slice3">border-image-slice fill</a><br>
-	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-slice2">border-image-slice %</a><br>
-	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-slice">border-image-slice number</a><br>
-	<p>border-image-width:</p>
+	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-slice3">Border-image-slice fill</a><br>
+	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-slice2">Border-image-slice %</a><br>
+	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-slice">Border-image-slice number</a><br>
+	<h3>Border-image-width:</h3>
 	<p>The border-image-width property specifies the width of the border image.</p>
-	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-width">border-image-width px</a><br>
-	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-width2">border-image-width number</a><br>
-	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-width3">border-image-width %</a><br>
+	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-width">Border-image-width px</a><br>
+	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-width2">Border-image-width number</a><br>
+	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-width3">Border-image-width %</a><br>
+	<hr><br>
+	<h4>Border Image Outset property</h4>
 	<p>The border-image-outset property specifies the amount by which the border image area extends beyond the border box.</p>
-	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-outset">border-image-outset px</a><br>
-	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-outset2">border-image-outset number</a><br>
+	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-outset">Border-image-outset px</a><br>
+	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-outset2">Border-image-outset number</a><br>
+	
+	<h4>Border Image Repeat Property</h4>
 	<p>The border-image-repeat property specifies whether the border image should be repeated, rounded or stretched.</p>
-	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-repeat&preval=stretch">border-image-repeat STRETCH Repeat Round Space</a><br>
-
+	<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_border-image-repeat&preval=stretch">Border-image-repeat STRETCH Repeat Round Space</a><br>
+	<hr><br>
 	<h1>CSS Multiple Backgrounds</h1>
 	<p>CSS allows you to add multiple background images for an element, through the background-image property.<br>
 	The different background images are separated by commas, and the images are stacked on top of each other, where the first image is closest to the viewer.</p>
@@ -98,81 +105,96 @@
 
 	<p>Original image:</p>
 	<img src="IMAGES/img_flwr.gif" alt="Flowers" width="224" height="162">
-	<p>Define Sizes of Multiple Background Images<br>
-	The background-size property also accepts multiple values for background size (using a comma-separated list), when working with multiple backgrounds.</p>
+	<h3>Define Sizes of Multiple Background Images</h3><br>
+	<p>The background-size property also accepts multiple values for background size (using a comma-separated list), when working with multiple backgrounds.</p>
 
 	<div id="example11">
     <h1>Lorem Ipsum Dolor</h1>
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
     <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
     </div>
+	<h4>Full Size Background Image</h4>
+	<p>Now we want to have a background image on a website that covers the entire browser window at all times.
+<br><br>
+The requirements are as follows:
+<br><br>
+    Fill the entire page with the image (no white space)<br>
+    Scale image as needed<br>
+    Center image on page<br>
+    Do not cause scrollbars<br>
+<br>
+The following example shows how to do it; Use the <html> element (the <html> element is always at least the height of the browser window). Then set a fixed and centered background on it. Then adjust its size with the background-size property</p>
     <div id="example2">
     <div id="text">Full Size Background Image<br>
 	Now we want to have a background image on a website that covers the entire browser window at all times.</div></div><br><br>
-
+<h4>Hero Image</h4>
+<p>You could also use different background properties on a <div> to create a hero image (a large image with text), and place it where you want.</p>
 	<div class="hero-image">
     <div class="hero-text">
     <h1 style="font-size:50px">I am John Doe</h1>
     <h3>And I'm a Photographer</h3>
     <button>Hire me</button>
     </div>
-	</div>
-	<p>CSS background-origin Property<br>
-	The CSS background-origin property specifies where the background image is positioned.<br>
+	</div><hr><br>
+		
+		
+	<h3>CSS background-origin Property</h3><br>
+	<p>The CSS background-origin property specifies where the background image is positioned.<br><br>
 
-	The property takes three different values:<br>
+	The property takes three different values:<br><br>
 
 	border-box - the background image starts from the upper left corner of the border<br>
 	padding-box - (default) the background image starts from the upper left corner of the padding edge<br>
 	content-box - the background image starts from the upper left corner of the content
 	</p>
-	<p>No background-origin (padding-box is default):</p>
+	<strong>No background-origin (padding-box is default):</strong>
 	<div id="example10">
   <h2>Lorem Ipsum Dolor</h2>
   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></div>
-  <p>background-origin: border-box:</p>
+  <strong>background-origin: border-box:</strong>
 <div id="example21">
   <h2>Lorem Ipsum Dolor</h2>
   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></div>
-  <p>background-origin: content-box:</p>
+  <strong>background-origin: content-box:</strong>
 <div id="example31">
   <h2>Lorem Ipsum Dolor</h2>
   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></div>
-  <p>CSS background-clip Property<br>
-	The CSS background-clip property specifies the painting area of the background.<br>
+  <hr><br>
+		<h3>CSS background-clip Property</h3><br>
+	<p>The CSS background-clip property specifies the painting area of the background.<br><br>
 
-	The property takes three different values:<br>
+	The property takes three different values:<br><br>
 
 	border-box - (default) the background is painted to the outside edge of the border<br>
 	padding-box - the background is painted to the outside edge of the padding<br>
 	content-box - the background is painted within the content box
 	</p>
-	<p>No background-clip (border-box is default):</p>
+	<strong>No background-clip (border-box is default):</strong>
 	<div id="example12">
 	  <h2>Lorem Ipsum Dolor</h2>
 	  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 	</div>
 
-	<p>background-clip: padding-box:</p>
+	<strong>background-clip: padding-box:</strong>
 	<div id="example22">
 	  <h2>Lorem Ipsum Dolor</h2>
 	  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 	</div>
 
-	<p>background-clip: content-box:</p>
+	<strong>background-clip: content-box:</strong>
 	<div id="example32">
 	  <h2>Lorem Ipsum Dolor</h2>
 	  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-	</div>
-	<p>CSS Color Keywords</p>
+	</div><hr><br>
+		<h3>CSS Color Keywords</h3><br>
 	<p>The transparent Keyword<br>
-	The transparent keyword is used to make a color transparent. This is often used to make a transparent background color for an element.</p>
+	The transparent keyword is used to make a color transparent. This is often used to make a transparent background color for an element.</p><br>
 	<div class="ex1">This div has a light green background.</div>
 	<br>
-	<div class="ex2">This div has a transparent background.</div>
+	<div class="ex2">This div has a transparent background.</div><hr><br>
 
-	<p>The currentcolor Keyword<br>
-	The currentcolor keyword is like a variable that holds the current value of the color property of an element.</p>
+		<h4>The currentcolor Keywor</h4><br>
+	<p>The currentcolor keyword is like a variable that holds the current value of the color property of an element.</p><br>
 	<div id="crntclr">
 	This div element has a blue text color and a blue border.
 	</div><br>
@@ -183,23 +205,23 @@
 	<div id="crntclr2out">
 	<div id="crntclr2in">
 	<p>This div's border color and shadow color is set to the current color value of the body element.</p>
-	</div></div>
-	<p>The inherit Keyword<br>
-	The inherit keyword specifies that a property should inherit its value from its parent element.<br>
+	</div></div><br><hr><br>
+		<h4>The inherit Keyword</h4><br>
+	<p>The inherit keyword specifies that a property should inherit its value from its parent element.<br>
 	The inherit keyword can be used for any CSS property, and on any HTML element.</p>
 	<div id="inherit11">Here, the <span>span element's</span> border settings will be inherited from the parent element.</div>
 	<br>
-	<div style="border:2px dotted blue;">Here, the <span>span element's</span> border settings will also be inherited from the parent element.</div>
+	<div style="border:2px dotted blue;">Here, the <span>span element's</span> border settings will also be inherited from the parent element.</div><hr><br>
 
-	<p>Multiple Shadows</p>
+	<h3>Multiple Shadows</h3><br>
 	<p>To add more than one shadow to the text, you can add a comma-separated list of shadows.</p>
 	<h1 id="shdw">Text-shadow effect!</h1>
 	<h1 id="shdw1">Text-shadow effect!</h1>
-	<h1 id="shdw2">Text-shadow effect!</h1>
-	<p>Box Shadow</p>
+	<h1 id="shdw2">Text-shadow effect!</h1><hr><br>
+	<h3>Box Shadow</h3>
 	<p>The CSS box-shadow property applies shadow to elements.</p>
 	<p>5px is Blur Effect</p>
-	<div id="bxshdw">This is a div element with a box-shadow</div>
+	<div id="bxshdw">This is a div element with a box-shadow</div><hr><br>
 
 	<h2>CSS Text Effects</h2>
 	<p>CSS Text Overflow<br>
@@ -215,7 +237,7 @@
 	<div class="test" style="text-overflow:ellipsis;">This is some long text that will not fit in the box</div>
 	<br>
 	<div class="test" style="text-overflow:clip;">This is some long text that will not fit in the box</div>
-
+<hr><br>
 	<h2>CSS Word Wrapping</h2>
 	<p>The CSS word-wrap property allows long words to be able to be broken and wrap onto the next line.</p>
 	<p class="test"> This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
@@ -224,37 +246,37 @@
 	<p class="test10">This paragraph contains some text. This line will-break-at-hyphens.</p>
 
 	<p class="test20">This paragraph contains some text. The lines will break at any character.</p>
-
-	<p>CSS Writing Mode<br>
-	The CSS writing-mode property specifies whether lines of text are laid out horizontally or vertically.</p>
+<hr><br>
+		<h3>CSS Writing Mode</h3><br>
+	<p>The CSS writing-mode property specifies whether lines of text are laid out horizontally or vertically.</p>
 
 	<p class="test11">Some text with default writing-mode.</p>
 
 	<p>Some text with a span element with a <span class="test2">vertical-rl</span> writing-mode.</p>
 
 	<p class="test213">Some text with writing-mode: vertical-rl.</p>
-
+<hr><br>
 	<h1>CSS Web Fonts</h1>
-<p>The CSS @font-face Rule<br>
+<p><strong>The CSS @font-face Rule</strong><br>
 Web fonts allow Web designers to use fonts that are not installed on the user's computer.<br>
 When you have found/bought the font you wish to use, just include the font file on your web server, and it will be automatically downloaded to the user when needed.<br>
 Your "own" fonts are defined within the CSS @font-face rule.</p>
 
 <h3>Different Font Formats</h3>
-<p>TrueType Fonts (TTF)<br>
+<p><strong>TrueType Fonts (TTF)</strong><br>
 TrueType is a font standard developed in the late 1980s, by Apple and Microsoft. TrueType is the most common font format for both the Mac OS and Microsoft Windows operating systems.<br><br>
-OpenType Fonts (OTF)<br>
+<strong>OpenType Fonts (OTF)</strong><br>
 OpenType is a format for scalable computer fonts. It was built on TrueType, and is a registered trademark of Microsoft. OpenType fonts are used commonly today on the major computer platforms.<br><br>
-The Web Open Font Format (WOFF)<br>
+<strong>The Web Open Font Format (WOFF)</strong><br>
 WOFF is a font format for use in web pages. It was developed in 2009, and is now a W3C Recommendation. WOFF is essentially OpenType or TrueType with compression and additional metadata. The goal is to support font distribution from a server to a client over a network with bandwidth constraints.<br><br>
-The Web Open Font Format (WOFF 2.0)<br>
+<strong>The Web Open Font Format (WOFF 2.0)</strong><br>
 TrueType/OpenType font that provides better compression than WOFF 1.0.<br><br>
-SVG Fonts/Shapes<br>
+<strong>SVG Fonts/Shapes</strong><br>
 SVG fonts allow SVG to be used as glyphs when displaying text. The SVG 1.1 specification define a font module that allows the creation of fonts within an SVG document. You can also apply CSS to SVG documents, and the @font-face rule can be applied to text in SVG documents.<br><br>
-Embedded OpenType Fonts (EOT)<br>
+<strong>Embedded OpenType Fonts (EOT)</strong><br>
 EOT fonts are a compact form of OpenType fonts designed by Microsoft for use as embedded fonts on web pages.</p>
 
-<h5>Using The Font You Want</h5>
+<h3>Using The Font You Want</h3>
 <p>In the @font-face rule; first define a name for the font (e.g. myFirstFont) and then point to the font file.<br>
 Tip: Always use lowercase letters for the font URL. Uppercase letters can give unexpected results in IE.<br>
 To use the font for an HTML element, refer to the name of the font (myFirstFont) through the font-family property:</p>
@@ -263,8 +285,8 @@ With CSS, websites can use fonts other than the pre-selected "web-safe" fonts.
 </div>
 <div id="fontface1">
 With CSS, websites can use <b>fonts other than the pre-selected "web-safe" fonts</b>.
-</div>
-<p>font-stretch	</p>
+</div><hr><br>
+<h3>font-stretch</h3>
 <p id="fontstretch">NORMAL</p>
 <p id="fontstretch1">condensed</p>
 <p id="fontstretch2">ultra condensed</p>
@@ -274,26 +296,26 @@ With CSS, websites can use <b>fonts other than the pre-selected "web-safe" fonts
 <p id="fontstretch6">semi expanded</p>
 <p id="fontstretch7">extra expanded</p>
 <p id="fontstretch8">ultra expanded</p>
-
+<hr><br>
 <h3>CSS 2D Transforms</h3>
 <p>CSS transforms allow you to move, rotate, scale, and skew elements.</p>
 <p>CSS 2D Transforms Methods</p>
 <p>The translate() Method<br>
 	The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).<br>
-The following example moves the <div> element 50 pixels to the right, and 100 pixels down from its current position:
-</p>
+The following example moves the < div> element 50 pixels to the right, and 100 pixels down from its current position:
+		</p><h3>Original Div Element</h3>
 <div id="transform">
 This div element is moved 50 pixels to the right, and 100 pixels down from its current position.
 </div><br><br><br><br><br>
-<p>The rotate() Method</p>
+<strong>The rotate() Method</strong>
 <p>The rotate() method rotates an element clockwise or counter-clockwise according to a given degree.</p><br><br><br>
 <div id="myDiv">
 This div element is rotated clockwise 20 degrees.
 </div><br><br><br><br><br><br><br><br>
 <div id="myDiv1">
 This div element is rotated clockwise 20 degrees.
-</div><br><br><br><br>
-<p>The scale() Method</p>
+</div><br><br><br><br><hr><br>
+<strong>The scale() Method</strong>
 <p>The scale() method increases or decreases the size of an element (according to the parameters given for the width and height).</p>
 <div id="transformscale">
 This div element is two times of its original width, and three times of its original height.
@@ -303,47 +325,47 @@ This div element is two times of its original width, and three times of its orig
 </div>
 <div id="transformscale2">
 This div element is two times of its original width, and three times of its original height.
-</div>
-<p>The scaleX() Method<br>
-The scaleX() method increases or decreases the width of an element.</p>
+</div><hr><br>
+		<strong>The scaleX() Method</strong><br>
+<p>The scaleX() method increases or decreases the width of an element.</p>
 <div id="transformscalex">
 This div element is two times of its original width.
 </div>
 <div id="transformscalex1">
 This div element is half of its original width.
-</div>
-<p>The scaleY() Method<br>
-The scaleY() method increases or decreases the height of an element.</p>
+</div><hr><br>
+		<strong>The scaleY() Method</strong><br>
+<p>The scaleY() method increases or decreases the height of an element.</p>
 <div id="transformscaley">
 This div element is three times of its original height.
 </div>
 <div id="transformscaley1">
 This div element is three times of its original height.
-</div>
-<p>The skewX() Method<br>
-The skewX() method skews an element along the X-axis by the given angle.</p>
+</div><hr><br>
+		<strong>The skewX() Method</strong><br>
+<p>The skewX() method skews an element along the X-axis by the given angle.</p>
 <div id="myDiv11">
 This div element is skewed 20 degrees along the X-axis.
 </div>
 <div id="myDiv12">
 This div element is skewed 20 degrees along the X-axis.
-</div>
-<p>The skewY() Method<br>
-The skewY() method skews an element along the Y-axis by the given angle.</p>
+</div><hr><br>
+		<strong>The skewY() Method</strong><br>
+<p>The skewY() method skews an element along the Y-axis by the given angle.</p>
 <div id="myDiv22">
 This div element is skewed 20 degrees along the Y-axis.
 </div>
 <div id="myDiv21">
 This div element is skewed 20 degrees along the Y-axis.
-</div>
+</div><hr><br>
 
-<p>The skew() Method<br>
-The skew() method skews an element along the X and Y-axis by the given angles.</p>
+		<strong>The skew() Method</strong><br>
+<p>The skew() method skews an element along the X and Y-axis by the given angles.</p>
 <div id="myDiv3">
 This div element is skewed 20 degrees along the X-axis, and 10 degrees along the Y-axis.
-</div>
-<p>The matrix() Method<br>
-The matrix() method combines all the 2D transform methods into one.<br>
+</div><hr><br>
+		<strong>The matrix() Method</strong><br>
+<p>The matrix() method combines all the 2D transform methods into one.<br>
 The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements.<br>
 The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())</p>
 <div id="myDiv41">
@@ -352,27 +374,27 @@ Using the matrix() method.
 
 <div id="myDiv42">
 Another use of the matrix() method.
-</div>
+</div><br><br><hr><br>
 
 <h2>CSS 3D Transforms</h2>
-<p>The rotateX() Method</p>
+<strong>The rotateX() Method</strong>
 <p>The rotateX() method rotates an element around its X-axis at a given degree:</p>
 <div id="myDiv51">
 This div element is rotated 150 degrees.
 </div>
 
-<p>The rotateY() Method<br>
-	The rotateY() method rotates an element around its Y-axis at a given degree:</p>
+<strong>The rotateY() Method</strong><br>
+	<p>The rotateY() method rotates an element around its Y-axis at a given degree:</p>
 <div id="myDiv61">
 This div element is rotated 150 degrees.
 </div>
-<p>The rotateZ() Method<br>
-The rotateZ() method rotates an element around its Z-axis at a given degree</p>
+<strong>The rotateZ() Method</strong><br>
+<p>The rotateZ() method rotates an element around its Z-axis at a given degree</p>
 <div id="myDiv71">
 This div element is rotated 90 degrees.
-</div>
-<p>CSS transform-origin Property<br>
-The transform-origin property allows you to change the position of transformed elements.<br>
+</div><br><br><br><br><br><br><hr><br>
+		<h3>CSS transform-origin Property</h3><br>
+<p>The transform-origin property allows you to change the position of transformed elements.<br>
 2D transformations can change the x- and y-axis of an element. 3D transformations can also change the z-axis of an element.</p>
 <div id="div2">HELLO</div><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <p>CSS transform-style Property<br>
@@ -381,9 +403,9 @@ The transform-style property specifies how nested elements are rendered in 3D sp
 <b>preserve-3d</b>	<br>Specifies that child elements will preserve its 3D position</p>
 <div id="div21">HELLO
   <div id="div31">YELLOW</div>
-  </div><br><br><br><br><br><br><br><br><br><br><br><br>
-<p>CSS perspective Property<br>
-The perspective property is used to give a 3D-positioned element some perspective.<br>
+  </div><br><br><br><br><br><br><br><br><br><br><hr><br>
+		<h3>CSS perspective Property</h3><br>
+<p>The perspective property is used to give a 3D-positioned element some perspective.<br>
 The perspective property defines how far the object is away from the user. So, a lower value will result in a more intensive 3D effect than a higher value.<br>
 When defining the perspective property for an element, it is the CHILD elements that get the perspective view, NOT the element itself.</p>
 <h2>perspective: 100px:</h2>
@@ -395,21 +417,23 @@ When defining the perspective property for an element, it is the CHILD elements 
 <div id="div30">DIV30
   <div id="div40">DIV40</div>
 </div>
+		<h6>The backface-visibility property defines whether or not the back face of an element should be visible when facing the user.</h6>
 <div id="div100">DIV 1</div>
-<div id="div200">DIV 2</div>
+<div id="div200">DIV 2</div><hr><br>
 
-<p>CSS Transitions<br>
-CSS transitions allows you to change property values smoothly, over a given duration.</p>
+		<h3>CSS Transitions</h3><br>
+<p>CSS transitions allows you to change property values smoothly, over a given duration.</p>
 <p>How to Use CSS Transitions?<br>
 To create a transition effect, you must specify two things:<br>
 the CSS property you want to add an effect to<br>
-the duration of the effect<br>
+the duration of the effect<br><br>
 Note: If the duration part is not specified, the transition will have no effect, because the default value is 0.</p>
+		<h2>Mouse Over the Elements</h2>
 <div id="trns1"></div><br><br>
-<div id="trns2"></div>
+<div id="trns2"></div><hr><br>
 <p>Specify the Speed Curve of the Transition<br>
-The transition-timing-function property specifies the speed curve of the transition effect.<br>
-The transition-timing-function property can have the following values:<br>
+The transition-timing-function property specifies the speed curve of the transition effect.<br><br>
+The transition-timing-function property can have the following values:<br><br>
 ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)<br>
 linear - specifies a transition effect with the same speed from start to end<br>
 ease-in - specifies a transition effect with a slow start<br>
@@ -421,16 +445,16 @@ cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier functi
 <div id="div33" class="t1">ease-in</div><br>
 <div id="div43" class="t1">ease-out</div><br>
 <div id="div53" class="t1">ease-in-out</div>
-<p>Delay the Transition Effect<br>
-The transition-delay property specifies a delay (in seconds) for the transition effect.</p>
+		<strong>Delay the Transition Effect</strong><br>
+<p>The transition-delay property specifies a delay (in seconds) for the transition effect.</p>
 <div id="trns3"></div>
 <h3>Transition + Transformation</h3>
 <div id="trns4"></div>
 <h4>Transistion Syntax</h4>
-<code>transition: property duration timing-function delay|initial|inherit;</code>
+<code>transition: property duration timing-function delay|initial|inherit;</code><hr><br>
 
-<p>CSS Animations<br>
-CSS allows animation of HTML elements without using JavaScript or Flash!</p>
+<h3>CSS Animations<h3><br>
+<p>CSS allows animation of HTML elements without using JavaScript or Flash!</p>
 <p>What are CSS Animations?<br>
 An animation lets an element gradually change from one style to another.<br>
 You can change as many CSS properties you want, as many times as you want.<br>
@@ -439,22 +463,29 @@ Keyframes hold what styles the element will have at certain times.</p>
 <p>The @keyframes Rule<br>
 When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times.<br>
 To get an animation to work, you must bind the animation to an element.</p>
-<div id="anmts1"></div>
+	<h3>Refresh the page to see Animations</h3>
+	<div id="anmts1"></div>
 <p>Note: The animation-duration property defines how long an animation should take to complete. If the animation-duration property is not specified, no animation will occur, because the default value is 0s (0 seconds). <br>
 In the example above we have specified when the style will change by using the keywords "from" and "to" (which represents 0% (start) and 100% (complete)).<br>
 It is also possible to use percent. By using percent, you can add as many style changes as you like.</p>
-<div id="anmts2"></div>
+<h3>Refresh the page to see Animations</h3><br>
+	<div id="anmts2"></div><br>
+	<h3>Refresh the page to see Animations</h3><br>
 <div id="anmts3"></div>
-<p>Delay an Animation<br>
+	<p><strong>Delay an Animation</strong><br>
 The animation-delay property specifies a delay for the start of an animation.</p>
-<div id="anmts4"></div>
+<h3>Refresh the page to see Animations and wait some time</h3>
+	<div id="anmts4"></div>
 <p>Negative values are also allowed. If using negative values, the animation will start as if it had already been playing for N seconds.</p>
-<div id="anmts5"></div>
+<h3>Refresh the page to see Animations</h3>
+	<div id="anmts5"></div>
 <p>Set How Many Times an Animation Should Run<br>
 The animation-iteration-count property specifies the number of times an animation should run.</p>
-<div id="anmts6"></div>
+<h3>Refresh the page to see Animations</h3>
+	<div id="anmts6"></div>
 <p>The following example uses the value "infinite" to make the animation continue for ever:</p>
-<div id="anmts7"></div>
+<h3>Refresh the page to see Animations</h3>
+	<div id="anmts7"></div><br><br><br><br><br><br><br><br><br><br><br><br><br><hr><br>
 <p>Run Animation in Reverse Direction or Alternate Cycles<br>
 The animation-direction property specifies whether an animation should be played forwards, backwards or in alternate cycles.<br>
 The animation-direction property can have the following values:<br>
@@ -462,15 +493,15 @@ normal - The animation is played as normal (forwards). This is default<br>
 reverse - The animation is played in reverse direction (backwards)<br>
 alternate - The animation is played forwards first, then backwards<br>
 alternate-reverse - The animation is played backwards first, then forwards</p>
-<p>REVERSE</p>
+<p>REVERSE Refresh the page to see Animations</p>
 <div id="anmts8"></div>
-<p>ALTERNATE</p>
+<p>ALTERNATE Refresh the page to see Animations</p>
 <div id="anmts9"></div>
-<p>ALTERNATE-REVERSE</p>
-<div id="anmts10"></div>
+<p>ALTERNATE-REVERSE Refresh the page to see Animations</p>
+<div id="anmts10"></div><hr><br>
 <p>Specify the Speed Curve of the Animation<br>
-The animation-timing-function property specifies the speed curve of the animation.<br>
-The animation-timing-function property can have the following values:<br>
+The animation-timing-function property specifies the speed curve of the animation.<br><br>
+The animation-timing-function property can have the following values:<br><br>
 ease - Specifies an animation with a slow start, then fast, then end slowly (this is default)<br>
 linear - Specifies an animation with the same speed from start to end<br>
 ease-in - Specifies an animation with a slow start<br>
@@ -481,21 +512,21 @@ cubic-bezier(n,n,n,n) - Lets you define your own values in a cubic-bezier functi
 <div id="div24">ease</div>
 <div id="div34">ease-in</div>
 <div id="div44">ease-out</div>
-<div id="div54">ease-in-out</div>
+<div id="div54">ease-in-out</div><hr><br>
 
 <p>Specify the fill-mode For an Animation
-CSS animations do not affect an element before the first keyframe is played or after the last keyframe is played. The animation-fill-mode property can override this behavior.<br>
-The animation-fill-mode property specifies a style for the target element when the animation is not playing (before it starts, after it ends, or both).<br>
-The animation-fill-mode property can have the following values:<br>
+CSS animations do not affect an element before the first keyframe is played or after the last keyframe is played. The animation-fill-mode property can override this behavior.<br><br>
+The animation-fill-mode property specifies a style for the target element when the animation is not playing (before it starts, after it ends, or both).<br><br>
+The animation-fill-mode property can have the following values:<br><br>
 none - Default value. Animation will not apply any styles to the element before or after it is executing<br>
 forwards - The element will retain the style values that is set by the last keyframe (depends on animation-direction and animation-iteration-count)<br>
 backwards - The element will get the style values that is set by the first keyframe (depends on animation-direction), and retain this during the animation-delay period<br>
-both - The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions</p> 
-<p>FORWARDS</p>
+both - The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions</p> <br>
+<p>FORWARDS Refresh the page to see Animations</p>
 <div id="anmts11"></div>
-<p>BACKWARDS</p>
+<p>BACKWARDS Refresh the page to see Animations</p>
 <div id="anmts12"></div><br><br><br><br><br><br><br><br><br>
-<p>BOTH</p>
+<p>BOTH Refresh the page to see Animations</p>
 <div id="anmts13"></div><br><br><br><br><br><br><br><br><br><br><br>
 
 <p>Animation Shorthand Property</p>
@@ -510,24 +541,24 @@ both - The animation will follow the rules for both forwards and backwards, exte
 </code><br><br><br><br>
 <code>animation-play-state: paused|running|initial|inherit;
 </code><br><br><br><br>
-<p>CSS Tooltip</p>
+	<h3><a href="https://www.w3schools.com/css/css_tooltip.asp">CSS Tooltip</a></h3><i>click</i>
 <p>A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an element:</p>
-<p>CSS Styling Images</p>
-<p>Rounded Images</p>
+<h3>CSS Styling Images</h3>
+<h3>Rounded Images</h3>
 <img id="rimg" src="IMAGES/paris.jpg" alt="Paris" width="300" height="300">
-<p>CIrcled images</p>
+<h5>CIrcled images</h5>
 <img id="cimg" src="IMAGES/paris.jpg" alt="Paris" width="300" height="300">
-<p>Thumbnail Images</p>
+<h5>Thumbnail Images</h5>
 <a href="Images/paris.jpg">
 <img id="timg" src="IMAGES/paris.jpg" alt="paris"></a>
 
-<p>Responsive Images<br>
-Responsive images will automatically adjust to fit the size of the screen.</p>
+	<h3>Responsive Images</h3><br>
+<p>Responsive images will automatically adjust to fit the size of the screen.</p>
 <img id="reimg" src="IMAGES/img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
-<p>Center an Image</p>
+<h5>Center an Image</h5>
 <p>To center an image, set left and right margin to auto and make it into a block element:</p>
 <img id="ceimg" src="IMAGES/paris.jpg" alt="Paris" style="width:50%">
-<p>Image Filters<br>The CSS filter property adds visual effects (like blur and saturation) to an element.</p>
+	<p><h5>Image Filters</h5><br>The CSS filter property adds visual effects (like blur and saturation) to an element.</p>
 <p>normal img :</p>
 <img src="IMAGES/pineapple.jpg" alt="Pineapple" width="300" height="300"><br>
 <p>BLur Image :</p>
